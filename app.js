@@ -10,7 +10,7 @@ function range (first, second, step) {
     for(let i = first; i <= second; i+=step){
         arr.push(i)
     }
-    return arr;
+    return arr; 
 }
 function sum(range){
     var total=0;
